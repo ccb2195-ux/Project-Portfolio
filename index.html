@@ -44,16 +44,17 @@
       to { background-position: var(--backgroundSize) var(--backgroundSize); }
     }
 
-    .box {
-  background-color: rgba(0, 0, 0, 0.4);
+.box {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
   </style>
+  
 </head>
 
 <body>
-  <div class="box">
-    <h1 class="title has-text-light">Hi, I'm Craig.</h1>
-  </div>
+  <h1 class="title has-text-light">Hi, I'm Craig.</h1>
 
   <div class="box">
     <h1 class="title is-4 has-text-light">

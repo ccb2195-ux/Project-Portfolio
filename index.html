@@ -14,7 +14,7 @@
       box-sizing: border-box;
       margin: 0;
       height: 100vh;
-      font-family: 'Didact Gothic', Georgia, serif;
+      font-family: 'Didact Gothic'
 
       background-image: url(https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740&q=80);
       background-size: var(--backgroundSize);
@@ -47,7 +47,13 @@
 </head>
 
 <body>
-  <div class="box">I'm in a box.
+  <div class="box">
+    .box {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+</div>
   <h1 class="title has-text-light">Hi, I'm Craig.</h1>
   </div>
   <h1 class="title is-4 has-text-light">

@@ -19,9 +19,6 @@
       background-image: url(https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740&q=80);
       background-size: var(--backgroundSize);
 
-      display: grid;
-      place-items: center;
-
       animation: movingBackground 45s linear infinite;
       position: relative;
     }
@@ -48,26 +45,64 @@
   background-color: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  border-radius: 0;
 }
   </style>
 
 </head>
 
 <body>
-  <div class="box">
-    <div class="columns is-centered">
-      <div class="column is-6">
+
+  <!-- Intro box: top-left -->
+  <section class="section">
+  <div class="columns">
+    <div class="column is-one-fifth">
+      <div class="box">
         <h1 class="title has-text-light">Hi, I'm Craig.</h1>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="box">
-    <h1 class="title is-4 has-text-light">
-      I'm an aspiring data journalist with ambitions beyond my means.
-      I like to make maps & I'm also in intelligence.
-    </h1>
+
+  <!-- Two centered body columns -->
+<section class="section">
+  <div class="columns is-centered">
+    <div class="column is-one-fifths">
+      <div class="box">
+        <h1 class="title is-4 has-text-light">
+          I'm a data journalist with aspirations bigger than my abilities. I like making maps and working on intelligence.
+        </h1>
+      </div>
+    </div>
+
+    <div class="column is-two-fifths">
+      <div class="box">
+        <p class="has-text-light">Second column content goes here.</p>
+      </div>
+    </div>
   </div>
+
+   
+  <div class="columns is-centered">
+    <div class="column is-one-fifths">
+      <div class="box">
+        <h1 class="title is-3 has-text-light"> My work! </h1>
+          <a href="https://ccb2195-ux.github.io/Internet-Shutdown-Tracker/">
+            <h1 class="title is-4 has-text-light has-text-danger"> This Title Goes Here </h1>
+          </a>
+        <h2> Description </h2>
+      </div>
+    </div>
+
+    <div class="column is-two-fifths">
+      <div class="box">
+        <p class="has-text-light">Second column content goes here.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
 
 </body>
 </html>

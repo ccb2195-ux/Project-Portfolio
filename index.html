@@ -13,7 +13,7 @@
 
       box-sizing: border-box;
       margin: 0;
-      height: 100vh;
+      min-height: 100vh;
       font-family: 'Didact Gothic';
 
       background-image: url(https://img.freepik.com/free-vector/vector-grid-marking-user-hud-interface_1284-52212.jpg?semt=ais_hybrid&w=740&q=80);
@@ -25,7 +25,7 @@
 
     body:after {
       content: '';
-      position: absolute;
+      position: fixed;
       inset: 0;
       background-color: rgba(53, 86, 98, 0.8);
       z-index: 1;
@@ -88,10 +88,20 @@
     <div class="column is-one-fifths">
       <div class="box">
         <h1 class="title is-3 has-text-light"> My work! </h1>
+
+        <div style="margin-bottom: 2.5rem;">
           <a href="https://ccb2195-ux.github.io/Internet-Shutdown-Tracker/">
             <h1 class="title is-4 has-text-light has-text-danger"> The Internet Shutdown Tracker </h1>
           </a>
-        <h2> A live map of Internet Shutdowns by governments, updated hourly. </h2>
+          <h2> A live map of Internet Shutdowns by governments, updated hourly. </h2>
+        </div>
+
+        <div style="margin-bottom: 2.5rem;">
+          <a href="https://ccb2195-ux.github.io/ACLED_MENA_EVAP_Mapping/">
+            <h1 class="title is-4 has-text-light has-text-danger"> ACLED MENA EVAP Mapping </h1>
+          </a>
+          <h2> Mapping conflict and event data across the Middle East and North Africa region. </h2>
+        </div>
       </div>
     </div>
 

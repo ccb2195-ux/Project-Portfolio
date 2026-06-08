@@ -47,6 +47,38 @@
   -webkit-backdrop-filter: blur(5px);
   border-radius: 0;
 }
+
+.project-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-entry .project-text {
+  flex: 1;
+}
+
+.project-entry .project-tags {
+  margin-top: 0.6rem;
+}
+
+.project-entry .tag {
+  font-size: 0.72rem;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #8ec6d8;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+  letter-spacing: 0.04em;
+}
+
+.project-entry .project-thumbnail {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
   </style>
 
 </head>
@@ -89,18 +121,72 @@
       <div class="box">
         <h1 class="title is-3 has-text-light"> My work! </h1>
 
-        <div style="margin-bottom: 2.5rem;">
-          <a href="https://ccb2195-ux.github.io/Internet-Shutdown-Tracker/">
-            <h1 class="title is-4 has-text-light has-text-danger"> The Internet Shutdown Tracker </h1>
+        <div class="project-entry">
+          <div class="project-text">
+            <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
+              <h1 class="title is-4 has-text-light has-text-danger"><strong>Lobby Finder</strong></h1>
+            </a>
+            <p class="has-text-light">A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.</p>
+            <p class="project-tags">
+              <span class="tag">#Python</span>
+              <span class="tag">#commandline</span>
+              <span class="tag">#data-pipeline</span>
+            </p>
+          </div>
+          <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
+            <img src="lobby-finder-1.png" alt="Lobby Finder thumbnail" class="project-thumbnail">
           </a>
-          <h2> A live map of Internet Shutdowns by governments, updated hourly. </h2>
         </div>
 
-        <div style="margin-bottom: 2.5rem;">
-          <a href="https://ccb2195-ux.github.io/ACLED_MENA_EVAP_Mapping/">
-            <h1 class="title is-4 has-text-light has-text-danger"> ACLED MENA EVAP Mapping </h1>
+        <div class="project-entry">
+          <div class="project-text">
+            <a href="https://ccb2195-ux.github.io/acled-mapping/" target="_blank" rel="noopener noreferrer">
+              <h1 class="title is-4 has-text-light has-text-danger"><strong>How Bad Was Iran's Violent Crackdown on Protesters?</strong></h1>
+            </a>
+            <p class="has-text-light">A decade of ACLED data on excessive force reveals the full scale of the regime's assault — and why this time was different.</p>
+            <p class="project-tags">
+              <span class="tag">#Illustrator</span>
+              <span class="tag">#Leaflet</span>
+              <span class="tag">#ai2html</span>
+            </p>
+          </div>
+          <a href="https://ccb2195-ux.github.io/acled-mapping/" target="_blank" rel="noopener noreferrer">
+            <img src="Iran-ACLED-line.png" alt="Iran ACLED thumbnail" class="project-thumbnail">
           </a>
-          <h2> Mapping conflict and event data across the Middle East and North Africa region. </h2>
+        </div>
+
+        <div class="project-entry">
+          <div class="project-text">
+            <a href="https://ccb2195-ux.github.io/Rise-of-AI-Weapons/" target="_blank" rel="noopener noreferrer">
+              <h1 class="title is-4 has-text-light has-text-danger"><strong>A Decade of Spending on AI Weapons</strong></h1>
+            </a>
+            <p class="has-text-light">Visualizing the massive increase in government spending on autonomous surveillance and weapons systems.</p>
+            <p class="project-tags">
+              <span class="tag">#Illustrator</span>
+              <span class="tag">#matplotlib</span>
+              <span class="tag">#ai2html</span>
+            </p>
+          </div>
+          <a href="https://ccb2195-ux.github.io/Rise-of-AI-Weapons/" target="_blank" rel="noopener noreferrer">
+            <img src="Spending-AI-bar.png" alt="A Decade of Spending on AI Weapons thumbnail" class="project-thumbnail">
+          </a>
+        </div>
+
+        <div class="project-entry">
+          <div class="project-text">
+            <a href="https://ccb2195-ux.github.io/Protected-Natural-Areas/" target="_blank" rel="noopener noreferrer">
+              <h1 class="title is-4 has-text-light has-text-danger"><strong>How much of our planet are we actually protecting?</strong></h1>
+            </a>
+            <p class="has-text-light">A country-by-country look at the share of land and sea set aside as protected areas.</p>
+            <p class="project-tags">
+              <span class="tag">#Scrollama</span>
+              <span class="tag">#JavaScript</span>
+              <span class="tag">#Illustrator</span>
+            </p>
+          </div>
+          <a href="https://ccb2195-ux.github.io/Protected-Natural-Areas/" target="_blank" rel="noopener noreferrer">
+            <img src="protected.png" alt="How much of our planet are we actually protecting thumbnail" class="project-thumbnail">
+          </a>
         </div>
       </div>
     </div>

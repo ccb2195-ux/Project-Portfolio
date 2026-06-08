@@ -1,0 +1,46 @@
+Box Template
+```
+# Box
+## H1 Title Text
+### H3 Body Text
+```
+
+Content Template
+```
+Title -> Article Title; should be bolded
+Description -> A short descirption of the article;
+Link -> Use to hyperlink the Title
+Tags -> uses # to show what tools went into each project
+Thumnail -> Path to Thumbnail image will be here
+```
+
+
+# Intro Box
+## Hi, I'm Craig
+
+# My Work Box
+## My Work!
+
+Title -> Lobby Finder
+Description -> A python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.
+Link -> https://github.com/ccb2195-ux/Lobby_Finder
+Tags -> Python | commandline | data pipeline
+Thumbnail -> lobby-finder-1.png
+
+Title -> How Bad Was Iran's Violent Crackdown on Protesters?
+Description -> A decade of ACLED data on excessive force reveals the full scale of the regime's assault — and why this time was different.
+Link -> https://ccb2195-ux.github.io/acled-mapping/
+Tags -> Illistrator | Leaflet | ai2html
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Iran-ACLED-line.png
+
+Title -> A Decade of Spending on AI Weapons
+Description -> Visualizing the massive increase in government speading on autonomous surviallance and weapons systems.
+Link -> https://ccb2195-ux.github.io/Rise-of-AI-Weapons/
+Tags -> Illistrator | matplotlib | ai2html
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Spending-AI-bar.png
+
+Title -> How much of our planet are we actually protecting?
+Description -> A country-by-country look at the share of land and sea set aside as protected areas.
+Link -> https://ccb2195-ux.github.io/Protected-Natural-Areas/
+Tags -> Scrollama | JavaScript | Illistrator
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\protected.png

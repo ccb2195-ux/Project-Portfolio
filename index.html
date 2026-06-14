@@ -69,7 +69,7 @@
       --text-accent: #ffffff;
       --tag-bg: #000000;
       --tag-text: #8ec6d8;
-      --tag-mark: #f4e800;
+      --tag-mark: rgb(17, 180, 20);
       --hero-text: #ffffff;
       --exp-company: #ffffff;
       --exp-title: #a6a6a6;
@@ -88,12 +88,21 @@
       color: #ffffff !important;
     }
 
+    #secure-contact-mobile { display: none; }
+
     #secure-contact-text {
       color: #000000;
     }
 
     body.dark-mode #secure-contact-text {
       color: #ffffff;
+    }
+
+    a {
+      transition: text-shadow 0.2s ease;
+    }
+    a:hover {
+      text-shadow: 0 0 3px var(--tag-mark);
     }
 
     /* CSS variable overrides for Bulma utility classes */
@@ -125,6 +134,24 @@
       .project-entry .project-thumbnail {
         width: 100%;
         height: auto;
+      }
+
+      #globe-widget {
+        position: static !important;
+        flex-direction: column !important;
+        align-items: center;
+        padding: 0.25rem 1rem 0.75rem;
+      }
+
+      #secure-contact-header { display: none; }
+      #secure-contact-mobile { display: block; }
+
+      #theme-btn-wrapper {
+        padding: 0.3rem 0.9rem !important;
+      }
+
+      #theme-btn {
+        font-size: 0.75rem !important;
       }
     }
 
@@ -212,8 +239,83 @@
 
     .project-entry .project-thumbnail {
       width: 100%;
-      height: 200px;
+      height: 240px;
       object-fit: cover;
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+    }
+
+    @media (max-width: 768px) {
+      .archive-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .archive-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background-color: rgba(0, 0, 0, 0.11);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+      transition: box-shadow 0.2s ease;
+    }
+
+    .archive-card:hover {
+      box-shadow: 0 0 12px 2px var(--tag-mark);
+      text-shadow: none;
+    }
+
+    .archive-card img {
+      width: 100%;
+      height: 185px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .archive-card .archive-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--exp-company);
+      padding: 0.6rem 0.8rem 0.2rem;
+      line-height: 1.3;
+    }
+
+    .archive-card .archive-date {
+      font-size: 0.7rem;
+      color: var(--exp-year);
+      padding: 0 0.8rem 0.2rem;
+      letter-spacing: 0.03em;
+    }
+
+    .archive-card .archive-pub {
+      font-size: 0.78rem;
+      font-style: italic;
+      color: var(--exp-title);
+      padding: 0 0.8rem 0.1rem;
+    }
+
+    .archive-card .archive-tools {
+      font-size: 0.72rem;
+      color: var(--exp-year);
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.8rem 0.3rem;
+    }
+
+    .archive-card .archive-desc {
+      font-size: 0.78rem;
+      color: var(--exp-title);
+      padding: 0 0.8rem 0.8rem;
+      flex: 1;
+      opacity: 0.75;
     }
   </style>
 
@@ -227,7 +329,7 @@
     <div class="column is-four-fifths">
       <div class="box" style="display: flex; align-items: center; justify-content: space-between;">
         <h1 class="title has-text-light" style="margin-bottom: 0;">Hi, I'm Craig.</h1>
-        <a href="https://signal.me/#p/+19724087275" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <a id="secure-contact-header" href="https://signal.me/#p/+19724087275" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
           <div style="background-color: rgba(17, 123, 0, 0.16);
                       backdrop-filter: blur(5px);
                       -webkit-backdrop-filter: blur(5px);
@@ -241,6 +343,29 @@
   </div>
 </section>
 
+  <div id="globe-widget" style="position: fixed; top: 1rem; left: 1.5rem; z-index: 100; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+    <figure class="image is-128x128">
+      <img id="planet-gif" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" />
+    </figure>
+    <div id="theme-btn-wrapper" style="background-color: rgba(20, 50, 70, 0.55);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border-radius: 50px;
+                padding: 0.45rem 1.2rem;">
+      <button id="theme-btn" onclick="toggleTheme()" style="background: none; border: none; cursor: pointer; color: rgb(8, 8, 8); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.05em; padding: 0;">
+        Night Mode
+      </button>
+    </div>
+    <a id="secure-contact-mobile" href="https://signal.me/#p/+19724087275" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+      <div style="background-color: rgba(17, 123, 0, 0.16);
+                  backdrop-filter: blur(5px);
+                  -webkit-backdrop-filter: blur(5px);
+                  border-radius: 50px;
+                  padding: 0.45rem 1.2rem;">
+        <span style="font-weight: 600; font-size: 0.85rem; letter-spacing: 0.05em; color: #ffffff;">Secure Contact</span>
+      </div>
+    </a>
+  </div>
 
   <!-- Makin some columns I think -->
 <section class="section">
@@ -250,8 +375,8 @@
       <div>
                <h1 class="title is-3 has-text-light">About me</h1>
         <div class="box ">
-        <p class="has-text-light" style="margin-bottom: 1rem;">I'm a <mark>data journalist</mark>, OSINT researcher, and geopolitics junkie. I got my start in tech sales (ew), wiggled my way into Foreign Policy Magazine, and accidentally found myself working in geopolitical intelligence at Stratfor.</p>
-        <p class="has-text-light">Due to that later bit, I'm well sourced with intelligence professionals and have a knack for investigating the ripple effects of major global events. Through what I'm assuming was a freak mistake, </p>
+        <p class="has-text-light" style="margin-bottom: 1rem;">I'm a <mark>data journalist</mark>, intelligence professional, and geopolitics junkie. I currently work in geopolitical intelligence at <mark>Stratfor</mark> and I'm also getting a masters at <mark>Columbia</mark> Graduate School of Journalism.</p>
+        <p class="has-text-light">I like working on all things technology & intelligence related. I have a knack for investigating the unexpected ripple effects of major global events. My main focus right now is using OSINT and data analysis to explore the crossover of AI into the military industrial complex.</p>
         </div>
       </div>
     </div>
@@ -394,26 +519,61 @@
     <div class="column is-four-fifths">
       <div>
         <h1 class="title is-3 has-text-light">My Archive</h1>
-        <div class="box" style="background-color: rgba(20, 50, 90, 0.06);">
+        <div class="box box2" style="padding: 1rem;">
+          <div class="archive-grid">
+            <a href="https://ccb2195-ux.github.io/Met_Map/" target="_blank" rel="noopener noreferrer" class="archive-card">
+              <img src="Metmap.png" alt="Met Map thumbnail">
+              <span class="archive-title">Where on Earth Did the Met's Collection Come From?</span>
+              <span class="archive-date">02/01/26</span>
+              <span class="archive-tools">datawrapper | python | METapi</span>
+              <span class="archive-desc">A small investigation into the geographic origins of the Met's art.</span>
+            </a>
+            <div class="archive-card">
+              <img src="Screenshot 2026-06-14 121333.png" alt="Infosec Daily Threat Report thumbnail">
+              <span class="archive-title">Infosec Daily Threat Report</span>
+              <span class="archive-date">02/08/25 – present</span>
+              <span class="archive-tools">technology | newsletter</span>
+              <span class="archive-pub">RANE</span>
+              <span class="archive-desc">Daily newsletter for cyber professionals. Writing by Daniel Shibley.</span>
+            </div>
+            <div class="archive-card">
+              <img src="Screenshot 2026-06-14 122202.png" alt="Direct Lending Intelligence Brief thumbnail">
+              <span class="archive-title">Direct Lending Intelligence Brief</span>
+              <span class="archive-date">02/08/25 – present</span>
+              <span class="archive-tools">private credit | newsletter</span>
+              <span class="archive-pub">RANE</span>
+              <span class="archive-desc">Daily newsletter for investing professionals. Writing by Daniel Shibley.</span>
+            </div>
+            <a href="https://unionquest.substack.com/p/the-unionquest-database-v11" target="_blank" rel="noopener noreferrer" class="archive-card">
+              <img src="Screenshot 2026-06-14 123039.png" alt="The unionquest database thumbnail">
+              <span class="archive-title">The Unionquest Database</span>
+              <span class="archive-date">02/02/25</span>
+              <span class="archive-tools">datawrapper | substack</span>
+              <span class="archive-pub">unionquest</span>
+              <span class="archive-desc">Database of games made by unionized workers.</span>
+            </a>
+            <div class="archive-card">
+              <img src="FP for Academia.png" alt="FP for Academia thumbnail">
+              <span class="archive-title">FP for Academia</span>
+              <span class="archive-date">04/21/24</span>
+              <span class="archive-tools">wordpress</span>
+              <span class="archive-pub">Foreign Policy</span>
+              <span class="archive-desc">A Newsletter for Professors & Librarians, written with Ryan Kim.</span>
+            </div>
+            <a href="https://unionquest.substack.com/p/the-state-of-japanese-labour-unions" target="_blank" rel="noopener noreferrer" class="archive-card">
+              <img src="Screenshot 2026-06-14 123326.png" alt="The State of Japanese Labor Unions thumbnail">
+              <span class="archive-title">The State of Japanese Labor Unions</span>
+              <span class="archive-date">12/23/23</span>
+              <span class="archive-tools">substack</span>
+              <span class="archive-pub">unionquest</span>
+              <span class="archive-desc">Or the rise and fall of perhaps history's most interesting labor movement.</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div style="position: fixed; top: 1rem; left: 1.5rem; z-index: 100; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
-    <figure class="image is-128x128">
-      <img id="planet-gif" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" />
-    </figure>
-    <div id="theme-btn-wrapper" style="background-color: rgba(20, 50, 70, 0.55);
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(5px);
-                border-radius: 50px;
-                padding: 0.45rem 1.2rem;">
-      <button id="theme-btn" onclick="toggleTheme()" style="background: none; border: none; cursor: pointer; color: rgb(8, 8, 8); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.05em; padding: 0;">
-        Night Mode
-      </button>
-    </div>
-  </div>
 
 
 </section>

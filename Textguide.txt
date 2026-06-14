@@ -20,12 +20,11 @@ Thumnail -> Path to Thumbnail image will be here
 
 # About me Box
 ## About me
-### I'm a data journalist, OSINT researcher, and geopolitics junkie. I got my start in tech sales (ew),
-wiggled my way into Foreign Policy Magazine, and accidentaly found myself working in geopolitical intelligence at Stratfor. 
+### I'm a data journalist, intelligence professional, and geopolitics junkie. I currently in
+geopolitical intelligence at Stratfor and I'm also getting a masters at Columbia Graduate School of Journalism. 
 
-Due to that later bit, I'm well sourced with intelligence professionals and have a knack for investigating the ripple effects
-of major global events. Through what I'm assuming was a freak mistake, I was allowed to get an MS in Data Journalism from
-Columbia University and I have a BA in International Relations from The Univeristy of Texas. 
+I like working on all things technology & intelligence related. I have a knack for investigating the unexpected ripple effects
+of major global events. My main focus right now is using OSINT and data analysis to explore the crossover of AI into the military industrial complex. 
 
 # My Work Box
 ## My Work!
@@ -81,6 +80,7 @@ Work name -> Tech sales/consulting
 Title -> this part dosen't matter
 years -> 2019 -> 2022
 
+# Commentented out #
 ------
 education
 ------
@@ -92,4 +92,62 @@ years -> 2025-2026
 Work name -> The University of Texas, Austin
 Title -> BA Interntional Relations & Global Studies
 years -> 2015-2019
+# ---- #
 
+# My Archive Box
+## My Archive
+
+title -> Where on Earth Did the Met's Collection Come From?
+Publication ->
+descirption -> A small investigation into the geographic origins of the Met's art.
+Link -> https://ccb2195-ux.github.io/Met_Map/
+Tags -> datawrapper | python | METapi
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Metmap.png
+date -> 02/01/26
+
+title ->  FP for Academia
+Publication -> Foreign Policy
+descirption -> A Newsletter for Professors & Librarians that I wrote with Ryan Kim
+Link -> Download
+Tags -> wordpress
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\FP for Academia.png
+date -> 04/21/24
+
+title -> Infosec Daily Threat Report
+Publication -> RANE
+descirption -> Daily newsletter for cyber professionals where I produced. Writing by Daniel Shibley
+Link -> 
+Tags -> technology | newsletter
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 121333.png
+date -> 02/08/25 - present 
+
+title -> Direrct Lending Intellginece Brief
+Publication -> RANE
+descirption -> Daily Newsletter for investigating professionals. Writing by Daniel Shibley.
+Link -> 
+Tags -> private credit | newsletter
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 122202.png
+date -> 02/08/25 - present
+
+title -> The unionquest database
+Publication -> unionquest
+descirption -> Database of Games Made by Unionized Workers
+link-> https://unionquest.substack.com/p/the-unionquest-database-v11
+Tags -> datawrapper | substack
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 123039.png
+date -> 02/02/25
+
+title -> The State of Japanese Labor Unions
+Publication -> unionquest
+descirption -> or the rise and fall of perhaps history's most interesting labor movement 
+link -> https://unionquest.substack.com/p/the-state-of-japanese-labour-unions
+Tags -> substack
+Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 123326.png
+date -> 12/23/23
+
+title -> 
+Publication -> 
+descirption -> 
+Tags -> 
+Thumbnail ->
+date -> 

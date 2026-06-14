@@ -62,6 +62,34 @@ Link -> https://github.com/ccb2195-ux/Lobby_Finder
 Tags -> Python | commandline | data pipeline
 Thumbnail -> lobby-finder-1.png
 
-# Contact me Box
-## Contact me
+# My Experiance Box
+## My Experiance
+
+Work name -> Stratfor/RANE
+Title -> Geopolitical Intellginece 
+Year -> 2025-present
+
+Work Name -> HYMAG
+Title -> Interm Director of Development
+Year -> 2024-2025
+
+Work name -> Foreign Policy
+Title -> Account Manager
+Year -> 2022-2024
+
+Work name -> Tech sales/consulting
+Title -> this part dosen't matter
+years -> 2019 -> 2022
+
+------
+education
+------
+
+Work name -> Columbia Graduate School of Journalism
+Title -> MS Data Journalism
+years -> 2025-2026
+
+Work name -> The University of Texas, Austin
+Title -> BA Interntional Relations & Global Studies
+years -> 2015-2019
 

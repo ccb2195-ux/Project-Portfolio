@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Craig's Strange Cave</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
   <style>
+    html {
+      font-size: 110%;
+    }
+
     body {
       --backgroundSize: 800px;
 
@@ -27,7 +32,7 @@
       content: '';
       position: fixed;
       inset: 0;
-      background-color: rgba(53, 86, 98, 0.8);
+      background-color: rgba(53, 86, 98, 0.908);
       z-index: 1;
     }
 
@@ -40,6 +45,38 @@
       from { background-position: 0 0; }
       to { background-position: var(--backgroundSize) var(--backgroundSize); }
     }
+
+.section {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .column {
+    padding: 0.5rem;
+  }
+
+  .project-entry {
+    flex-direction: column;
+  }
+
+  .project-entry .project-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.column {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
 .box {
   background-color: rgba(255, 255, 255, 0.06);
@@ -99,44 +136,21 @@
 
   <!-- Makin some columns I think -->
 <section class="section">
-  <div class="columns is-centered">
+  <div class="columns is-centered is-align-items-flex-start">
+
+    <!-- Left column: About me + My Work -->
     <div class="column is-one-fifths">
-      <div class="box">
-        <h1 class="title is-4 has-text-light">
-          I'm a data journalist with aspirations bigger than my abilities. I like making maps and working on intelligence.
-        </h1>
-      </div>
-    </div>
-
-    <div class="column is-two-fifths">
-      <div class="box">
-        <p class="has-text-light">Second column content goes here.</p>
-      </div>
-    </div>
-  </div>
-
-   <!-- This has my main body stuff -->
-  <div class="columns is-centered">
-    <div class="column is-one-fifths">
-      <div class="box">
-        <h1 class="title is-3 has-text-light"> My work! </h1>
-
-        <div class="project-entry">
-          <div class="project-text">
-            <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
-              <h1 class="title is-4 has-text-light has-text-danger"><strong>Lobby Finder</strong></h1>
-            </a>
-            <p class="has-text-light">A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.</p>
-            <p class="project-tags">
-              <span class="tag">#Python</span>
-              <span class="tag">#commandline</span>
-              <span class="tag">#data-pipeline</span>
-            </p>
-          </div>
-          <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
-            <img src="lobby-finder-1.png" alt="Lobby Finder thumbnail" class="project-thumbnail">
-          </a>
+      <div>
+        <h1 class="title is-3 has-text-light">About me</h1>
+        <div class="box">
+        <p class="has-text-light" style="margin-bottom: 1rem;">I'm a data journalist, OSINT researcher, and geopolitics junkie. I got my start in tech sales (ew), wiggled my way into Foreign Policy Magazine, and accidentally found myself working in geopolitical intelligence at Stratfor.</p>
+        <p class="has-text-light">Due to that later bit, I'm well sourced with intelligence professionals and have a knack for investigating the ripple effects of major global events. Through what I'm assuming was a freak mistake, I was allowed to get an MS in Data Journalism from Columbia University and I have a BA in International Relations from The University of Texas.</p>
         </div>
+      </div>
+
+      <div>
+        <h1 class="title is-3 has-text-light">My work!</h1>
+        <div class="box">
 
         <div class="project-entry">
           <div class="project-text">
@@ -188,23 +202,52 @@
             <img src="protected.png" alt="How much of our planet are we actually protecting thumbnail" class="project-thumbnail">
           </a>
         </div>
-      </div>
-    </div>
 
-            <div style="margin-bottom: 2.5rem;">
-          <a href="https://ccb2195-ux.github.io/Met_Map_2/">
-            <h1 class="title is-4 has-text-light has-text-danger"> Mapping the Met </h1>
-          </a>
-          <h2> Mapping conflict and event data across the Middle East and North Africa region. </h2>
+        <div class="project-entry">
+          <div class="project-text">
+            <h1 class="title is-4 has-text-light has-text-danger"><strong>FP for Academia Newsletter</strong></h1>
+            <p class="has-text-light">Foreign Policy's newsletter for academic institutions. Sent weekly to more than 100 global universities and thousands of professionals.</p>
+            <p class="project-tags">
+              <span class="tag">#Newsletter</span>
+            </p>
+          </div>
+          <img src="FP for Academia.png" alt="FP for Academia Newsletter thumbnail" class="project-thumbnail">
+        </div>
         </div>
       </div>
     </div>
 
+    <!-- Right column: Tools I've Built + Contact me -->
     <div class="column is-two-fifths">
-      <div class="box">
-        <p class="has-text-light">Second column content goes here.</p>
+      <div>
+        <h1 class="title is-3 has-text-light">Tools I've Built</h1>
+        <div class="box">
+
+        <div class="project-entry">
+          <div class="project-text">
+            <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
+              <h1 class="title is-4 has-text-light has-text-danger"><strong>Lobby Finder</strong></h1>
+            </a>
+            <p class="has-text-light">A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.</p>
+            <p class="project-tags">
+              <span class="tag">#Python</span>
+              <span class="tag">#commandline</span>
+              <span class="tag">#data-pipeline</span>
+            </p>
+          </div>
+          <a href="https://github.com/ccb2195-ux/Lobby_Finder" target="_blank" rel="noopener noreferrer">
+            <img src="lobby-finder-1.png" alt="Lobby Finder thumbnail" class="project-thumbnail">
+          </a>
+        </div>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="title is-3 has-text-light">Contact me</h1>
+        <div class="box"></div>
       </div>
     </div>
+
   </div>
 
   <figure class="image is-128x128">

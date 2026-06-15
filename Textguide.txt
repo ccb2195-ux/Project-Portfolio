@@ -64,6 +64,10 @@ Thumbnail -> lobby-finder-1.png
 # My Experiance Box
 ## My Experiance
 
+Work name -> Columbia Graduate School of Journalism
+Title -> Pulitzer-Moore Scholar
+Year -> 2025-present
+
 Work name -> Stratfor/RANE
 Title -> Geopolitical Intellginece 
 Year -> 2025-present

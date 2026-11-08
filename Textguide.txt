@@ -16,73 +16,71 @@ Thumnail -> Path to Thumbnail image will be here
 
 
 # Intro Box
-## Hi, I'm Craig
+## Hi, I'm Craig.
+Secure Contact button -> Signal link (top right of box; moves under the theme button on mobile)
 
 # About me Box
 ## About me
-### I'm a data journalist, intelligence professional, and geopolitics junkie. I currently in
-geopolitical intelligence at Stratfor and I'm also getting a masters at Columbia Graduate School of Journalism. 
+### I'm a data journalist, intelligence professional, and geopolitics junkie. I currently work in geopolitical intelligence at Stratfor and I recently recieved a masters at Columbia Graduate School of Journalism.
 
 I like working on all things technology & intelligence related. I have a knack for investigating the unexpected ripple effects
-of major global events. My main focus right now is using OSINT and data analysis to explore the crossover of AI into the military industrial complex. 
+of major global events. My main focus right now is using OSINT and data analysis to explore the crossover of AI into the military industrial complex. Also, I like animals.
 
-# My Work Box
-## My Work!
+Highlighted words (yellow marker) -> data journalist | Stratfor | Columbia
 
-Title -> How Bad Was Iran's Violent Crackdown on Protesters?
-Description -> A decade of ACLED data on excessive force reveals the full scale of the regime's assault — and why this time was different.
-Link -> https://ccb2195-ux.github.io/acled-mapping/
-Tags -> Illistrator | Leaflet | ai2html
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Iran-ACLED-line.png
+# Adjectives Box
+Data Journalist.
+OSINT Analyst.
+Cat Father.
+
+Buttons -> Email (mailto:craigbonder@gmail.com) | LinkedIn (https://www.linkedin.com/in/craigcbonder/) | GitHub (https://github.com/ccb2195-ux)
+
+# Recent Work Box
+## Recent Work
+
+Title -> The ERCOT Record
+Description -> A searchable database of every agenda, slide deck and set of minutes from Texas grid operator meetings, built to show what ERCOT is hearing about AI data centers and energy demand.
+Link -> https://ercot-meetings.onrender.com/
+Tags -> Python | SQLite | Flask | Render
+Thumbnail -> ercot-meetings.png
 
 Title -> A Decade of Spending on AI Weapons
-Description -> Visualizing the massive increase in government speading on autonomous surviallance and weapons systems.
+Description -> Visualizing the massive increase in government spending on autonomous surveillance and weapons systems.
 Link -> https://ccb2195-ux.github.io/Rise-of-AI-Weapons/
-Tags -> Illistrator | matplotlib | ai2html
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Spending-AI-bar.png
-
-Title -> How much of our planet are we actually protecting?
-Description -> A country-by-country look at the share of land and sea set aside as protected areas.
-Link -> https://ccb2195-ux.github.io/Protected-Natural-Areas/
-Tags -> Scrollama | JavaScript | Illistrator
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\protected.png
-
-Title -> FP for Academia Newsletter
-Description -> Foreign Policy's Newsletter for acadmeic institutions. Sent weekly to more than 100 global universites and thousands of professionals.
-Tags -> Newsletter
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\FP for Academia.png
+Tags -> Illustrator | matplotlib | ai2html
+Thumbnail -> Spending-AI-bar.png
 
 # Tools I've built Box
-## Tools I've built
+## Tools I've Built
 
 Title -> Lobby Finder
-Description -> A python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.
+Description -> A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.
 Link -> https://github.com/ccb2195-ux/Lobby_Finder
-Tags -> Python | commandline | data pipeline
+Tags -> Python | commandline | data-pipeline
 Thumbnail -> lobby-finder-1.png
 
-# My Experiance Box
-## My Experiance
+# My Experience Box
+## My Experience
 
 Work name -> Columbia Graduate School of Journalism
 Title -> Pulitzer-Moore Scholar
-Year -> 2025-present
+Year -> 2025–2026
 
-Work name -> Stratfor/RANE
-Title -> Geopolitical Intellginece 
-Year -> 2025-present
+Work name -> Stratfor / RANE
+Title -> Geopolitical Intelligence
+Year -> 2025–present
 
-Work Name -> HYMAG
-Title -> Interm Director of Development
-Year -> 2024-2025
+Work name -> HYMAG
+Title -> Interim Director of Development
+Year -> 2024–2025
 
 Work name -> Foreign Policy
 Title -> Account Manager
-Year -> 2022-2024
+Year -> 2022–2024
 
-Work name -> Tech sales/consulting
-Title -> this part dosen't matter
-years -> 2019 -> 2022
+Work name -> Tech Sales
+Title -> (blank on purpose)
+Year -> 2019–2022
 
 # Commentented out #
 ------
@@ -100,58 +98,89 @@ years -> 2015-2019
 
 # My Archive Box
 ## My Archive
+(3 column grid. Newest first, ongoing items sit where placed. Tools are plain text, not #hashtags. Cards with no Link are not clickable.)
+
+title -> How Bad Was Iran's Violent Crackdown on Protesters?
+Publication ->
+descirption -> A decade of ACLED data on excessive force reveals the full scale of the regime's assault — and why this time was different.
+Link -> https://ccb2195-ux.github.io/acled-mapping/
+Tags -> Illustrator | Leaflet | ai2html
+Thumbnail -> Iran-ACLED-line.png
+date -> 02/28/26
 
 title -> Where on Earth Did the Met's Collection Come From?
 Publication ->
 descirption -> A small investigation into the geographic origins of the Met's art.
 Link -> https://ccb2195-ux.github.io/Met_Map/
 Tags -> datawrapper | python | METapi
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Metmap.png
+Thumbnail -> Metmap.png
 date -> 02/01/26
-
-title ->  FP for Academia
-Publication -> Foreign Policy
-descirption -> A Newsletter for Professors & Librarians that I wrote with Ryan Kim
-Link -> Download
-Tags -> wordpress
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\FP for Academia.png
-date -> 04/21/24
 
 title -> Infosec Daily Threat Report
 Publication -> RANE
-descirption -> Daily newsletter for cyber professionals where I produced. Writing by Daniel Shibley
-Link -> 
+descirption -> Daily newsletter for cyber professionals. Writing by Daniel Shibley.
+Link ->
 Tags -> technology | newsletter
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 121333.png
-date -> 02/08/25 - present 
+Thumbnail -> Screenshot 2026-06-14 121333.png
+date -> 02/08/25 – present
 
-title -> Direrct Lending Intellginece Brief
+title -> Direct Lending Intelligence Brief
 Publication -> RANE
-descirption -> Daily Newsletter for investigating professionals. Writing by Daniel Shibley.
-Link -> 
+descirption -> Daily newsletter for investing professionals. Writing by Daniel Shibley.
+Link ->
 Tags -> private credit | newsletter
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 122202.png
-date -> 02/08/25 - present
+Thumbnail -> Screenshot 2026-06-14 122202.png
+date -> 02/08/25 – present
 
-title -> The unionquest database
+title -> The Unionquest Database
 Publication -> unionquest
-descirption -> Database of Games Made by Unionized Workers
-link-> https://unionquest.substack.com/p/the-unionquest-database-v11
+descirption -> Database of games made by unionized workers.
+Link -> https://unionquest.substack.com/p/the-unionquest-database-v11
 Tags -> datawrapper | substack
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 123039.png
+Thumbnail -> Screenshot 2026-06-14 123039.png
 date -> 02/02/25
+
+title -> FP for Academia
+Publication -> Foreign Policy
+descirption -> A Newsletter for Professors & Librarians, written with Ryan Kim.
+Link ->
+Tags -> wordpress
+Thumbnail -> FP for Academia.png
+date -> 04/21/24
 
 title -> The State of Japanese Labor Unions
 Publication -> unionquest
-descirption -> or the rise and fall of perhaps history's most interesting labor movement 
-link -> https://unionquest.substack.com/p/the-state-of-japanese-labour-unions
+descirption -> Or the rise and fall of perhaps history's most interesting labor movement.
+Link -> https://unionquest.substack.com/p/the-state-of-japanese-labour-unions
 Tags -> substack
-Thumbnail -> C:\Users\craig\Desktop\Project-Portfolio\Screenshot 2026-06-14 123326.png
+Thumbnail -> Screenshot 2026-06-14 123326.png
 date -> 12/23/23
 
-title -> 
-Publication -> 
-descirption -> 
-Tags -> 
+# ---- NEXT ENTRY (fill in and tell Hermes) ---- #
+title ->
+Publication ->
+descirption ->
+Link ->
+Tags ->
 Thumbnail ->
-date -> 
+date ->
+
+
+# Not on the site right now (kept so nothing gets lost) #
+------
+Previously in My Work. Not currently shown on the page.
+------
+
+Title -> How much of our planet are we actually protecting?
+Description -> A country-by-country look at the share of land and sea set aside as protected areas.
+Link -> https://ccb2195-ux.github.io/Protected-Natural-Areas/
+Tags -> Scrollama | JavaScript | Illustrator
+Thumbnail -> protected.png
+(image file is still in the repo root)
+
+Title -> FP for Academia Newsletter
+Description -> Foreign Policy's newsletter for academic institutions. Sent weekly to more than 100 global universities and thousands of professionals.
+Tags -> Newsletter
+Thumbnail -> FP for Academia.png
+(commented out in index.html Recent Work; now lives in the Archive as "FP for Academia")
+# ---- #

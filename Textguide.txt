@@ -38,11 +38,11 @@ Buttons -> Email (mailto:craigbonder@gmail.com) | LinkedIn (https://www.linkedin
 # Recent Work Box
 ## Recent Work
 
-Title -> The ERCOT Record
-Description -> A searchable database of every agenda, slide deck and set of minutes from Texas grid operator meetings, built to show what ERCOT is hearing about AI data centers and energy demand.
-Link -> https://ercot-meetings.onrender.com/
-Tags -> Python | SQLite | Flask | Render
-Thumbnail -> ercot-meetings.png
+Title -> Tracking the “Massive Migrant Caravan”
+Description -> Using Google Earth and reverse image search to find the exact location of a new group of migrants reported on by Fox News. 
+Link -> https://badplacetimes.substack.com/p/tracking-the-massive-migrant-caravan
+Tags -> OSINT | Geolocation
+Thumbnail -> migrant-caravan.jpg
 
 Title -> A Decade of Spending on AI Weapons
 Description -> Visualizing the massive increase in government spending on autonomous surveillance and weapons systems.
@@ -53,11 +53,11 @@ Thumbnail -> Spending-AI-bar.png
 # Tools I've built Box
 ## Tools I've Built
 
-Title -> Lobby Finder
-Description -> A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.
-Link -> https://github.com/ccb2195-ux/Lobby_Finder
-Tags -> Python | commandline | data-pipeline
-Thumbnail -> lobby-finder-1.png
+Title -> The ERCOT Record
+Description -> A searchable database of every agenda, slide deck and set of minutes from Texas grid operator meetings, built to show what ERCOT is hearing about AI data centers and energy demand.
+Link -> https://ercot-meetings.onrender.com/
+Tags -> Python | SQLite | Flask | Render
+Thumbnail -> ercot-meetings.png
 
 # My Experience Box
 ## My Experience
@@ -99,6 +99,14 @@ years -> 2015-2019
 # My Archive Box
 ## My Archive
 (3 column grid. Newest first, ongoing items sit where placed. Tools are plain text, not #hashtags. Cards with no Link are not clickable.)
+
+title -> Lobby Finder
+Publication ->
+descirption -> A Python & CLI tool to quickly clean and visualize Senate LDA/FEC committee data for lobbying research. Enter company names, and get back clean data & 10+ readymade graphs.
+Link -> https://github.com/ccb2195-ux/Lobby_Finder
+Tags -> Python | commandline | data-pipeline
+Thumbnail -> lobby-finder-1.png
+date ->
 
 title -> How Bad Was Iran's Violent Crackdown on Protesters?
 Publication ->

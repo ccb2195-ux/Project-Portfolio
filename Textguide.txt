@@ -44,11 +44,11 @@ Link -> https://badplacetimes.substack.com/p/tracking-the-massive-migrant-carava
 Tags -> OSINT | Geolocation
 Thumbnail -> migrant-caravan.jpg
 
-Title -> A Decade of Spending on AI Weapons
-Description -> Visualizing the massive increase in government spending on autonomous surveillance and weapons systems.
-Link -> https://ccb2195-ux.github.io/Rise-of-AI-Weapons/
-Tags -> Illustrator | matplotlib | ai2html
-Thumbnail -> Spending-AI-bar.png
+Title -> Palantir, AI Weapons, and The New Web of Influence Entangling Congress
+Description -> An investigation into how a new wave of defense-tech firms is using PACs, campaign contributions and lobbying to shape how Congress buys AI weapons.
+Link -> https://ccb2195-ux.github.io/thesis_site/
+Tags -> FEC | USAspending | Investigation
+Thumbnail -> thesis-site.png (screenshot of the final "Explore" graphic, zoomed ~4%, cropped slightly left)
 
 # Tools I've built Box
 ## Tools I've Built
@@ -62,17 +62,19 @@ Thumbnail -> ercot-meetings.png
 # My Experience Box
 ## My Experience
 
-Work name -> Columbia Graduate School of Journalism
-Title -> Pulitzer-Moore Scholar
-Year -> 2025–2026
+(Order: entries with "present" first, then the rest.)
 
 Work name -> Stratfor / RANE
 Title -> Geopolitical Intelligence
 Year -> 2025–present
 
-Work name -> HYMAG
-Title -> Interim Director of Development
-Year -> 2024–2025
+Work name -> Freelance
+Title -> Data/Investigative Journalism
+Year -> 2022–present
+
+Work name -> Columbia Graduate School of Journalism
+Title -> Pulitzer-Moore Scholar
+Year -> 2025–2026
 
 Work name -> Foreign Policy
 Title -> Account Manager
@@ -99,6 +101,14 @@ years -> 2015-2019
 # My Archive Box
 ## My Archive
 (3 column grid. Newest first, ongoing items sit where placed. Tools are plain text, not #hashtags. Cards with no Link are not clickable.)
+
+title -> A Decade of Spending on AI Weapons
+Publication ->
+descirption -> Visualizing the massive increase in government spending on autonomous surveillance and weapons systems.
+Link -> https://ccb2195-ux.github.io/Rise-of-AI-Weapons/
+Tags -> Illustrator | matplotlib | ai2html
+Thumbnail -> Spending-AI-bar.png
+date ->
 
 title -> Lobby Finder
 Publication ->
@@ -191,4 +201,9 @@ Description -> Foreign Policy's newsletter for academic institutions. Sent weekl
 Tags -> Newsletter
 Thumbnail -> FP for Academia.png
 (commented out in index.html Recent Work; now lives in the Archive as "FP for Academia")
+
+Work name -> HYMAG
+Title -> Interim Director of Development
+Year -> 2024–2025
+(removed from My Experience; replaced by Freelance)
 # ---- #
